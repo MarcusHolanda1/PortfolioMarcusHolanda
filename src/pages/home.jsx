@@ -1,8 +1,12 @@
-import Container from '../components/container';
+import InsideContainer from '../components/containerInside'
+import MainContainer from '../components/container';
 
 export default function Home() {
     return (
-        <Container>
-        </Container>
+        <MainContainer>
+            <InsideContainer>
+
+            </InsideContainer>
+        </MainContainer>
     );
 }
