@@ -1,8 +1,11 @@
-import { Button } from './styles'
+import { Button, Title, Section } from "./styles";
 
-const HomeButton = props => {
+const HomeButton = (props) => {
     return (
-    <Button>VAMOS LÁ</Button>       
-    )
-}
-export default HomeButton
+        <Section>
+            <Title>Preparado para me conhecer?</Title>
+            <Button>VAMOS LÁ</Button>
+        </Section>
+    );
+};
+export default HomeButton;

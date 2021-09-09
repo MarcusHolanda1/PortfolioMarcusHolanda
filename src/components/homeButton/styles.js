@@ -1,5 +1,23 @@
 import styled from 'styled-components';
 
+export const Section = styled.section`
+    padding-left: 0px;
+    padding-top: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+`
+
+export const Title = styled.h1`
+    padding-bottom: 60px;
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+`
+
 export const Button = styled.button`
     width: 280px;
     height: 75px;

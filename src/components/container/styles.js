@@ -5,9 +5,8 @@ export const Container = styled.main`
     height: 100vh;
     background: #160023;
 
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; */
 `
-
