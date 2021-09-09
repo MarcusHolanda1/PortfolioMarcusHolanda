@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Section = styled.section`
     padding-left: 0px;
-    padding-top: 300px;
+    padding-top: 0px;
     display: flex;
     align-items: center;
     justify-content: center;

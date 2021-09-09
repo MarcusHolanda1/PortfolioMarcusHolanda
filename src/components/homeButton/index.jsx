@@ -1,4 +1,4 @@
-import { Button, Title, Section } from "./styles";
+import { Section, Button, Title } from "./styles";
 
 const HomeButton = (props) => {
     return (
