@@ -9,8 +9,8 @@ input, button {
     outline: none;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+main {
+    font-family:"Fira Code", monospace, sans-serif;
 }
 
 a {
