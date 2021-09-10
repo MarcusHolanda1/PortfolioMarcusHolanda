@@ -1,16 +1,21 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-export const DivRocket = styled.div`
+export const ContainerPortfolio = styled.main`
+        width: 100%;
+    min-height: 100vh; /*    height: auto; */
+    background: #160023;
 
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 60%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+
+    font-size: 21px;
+    text-align: center;
 
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s;; /* Firefox < 16 */
@@ -47,32 +52,6 @@ export const DivRocket = styled.div`
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-    `;
 
-export const SpaceRocketImage = styled.img`
-    width: 400px;
-    height: 400px;    
 
-    
-`;
-
-export const Rocket = styled.img`
-    
-     
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    margin-left: 30px;
-    margin-top: 5px;
-
-@keyframes floating {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, -0px); }   
-}
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    display: block;
-`;
+`

@@ -1,10 +1,10 @@
-import MainContainer from '../components/containerHome';
+import MainContainerPortfolio from '../components/containers/containerPortfolio'
 
 const Portfolio = props => {
     return (
-        <MainContainer>
+        <MainContainerPortfolio>
 
-        </MainContainer>
+        </MainContainerPortfolio>
     )
 }
 export default Portfolio

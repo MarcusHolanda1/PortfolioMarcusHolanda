@@ -7,11 +7,48 @@ export const Section = styled.section`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 7s;; /* Firefox < 16 */
+        -ms-animation: fadein 7s;; /* Internet Explorer */
+         -o-animation: fadein 7s;; /* Opera < 12.1 */
+            animation: fadein 7s;;
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 `
 
 export const Title = styled.h1`
     padding-bottom: 60px;
 
+    text-align: center;
     font-size: 48px;
     font-style: normal;
     font-weight: normal;
