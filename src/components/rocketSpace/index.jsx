@@ -1,11 +1,13 @@
-import { DivRocket, SpaceRocketImage} from './styles'
+import { DivRocket, SpaceRocketImage, Rocket} from './styles'
 
-import SpaceRocketTest from '../../assets/images/space-amico.svg'
+import SpaceRocket from '../../assets/images/space.svg'
+import RocketTest from '../../assets/images/rocket.svg'
 
 const RocketSpace = (props) => {
     return (
         <DivRocket>
-            <SpaceRocketImage src={SpaceRocketTest}></SpaceRocketImage>
+            <SpaceRocketImage src={SpaceRocket} alt="Espaco"></SpaceRocketImage>
+            <Rocket src={RocketTest} alt="Foguete flutuante"></Rocket>
         </DivRocket>
     )
 }
