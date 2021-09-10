@@ -1,6 +1,13 @@
-import { Container } from "./styles";
+import { Container, Teste } from "./styles";
 
 const InsideContainer = (props) => {
-    return <Container></Container>;
+    return (
+            <Container>
+                <Teste>
+                    
+                </Teste>
+            </Container>
+    );
 };
+
 export default InsideContainer;
