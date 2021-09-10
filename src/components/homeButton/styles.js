@@ -22,9 +22,14 @@ export const Button = styled.button`
     width: 255px;
     height: 70px;
     background: linear-gradient(199.92deg, #800095 20.86%, #5D006C 86.7%);
-    border-radius: 100px;
+    border-radius: 12px;
 
     cursor: pointer;
     font-size: 33px;
     color: white;
+
+    &:hover{
+        box-shadow: 0 0.7em 0.7em -0.3em #F018E1;
+  transform: translateY(-0.09em);
+    }
 `

@@ -11,9 +11,7 @@ export const DivRocket = styled.div`
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-
-
-`;
+    `;
 
 export const SpaceRocketImage = styled.img`
     width: 400px;
