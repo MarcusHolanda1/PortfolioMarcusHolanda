@@ -19,11 +19,11 @@ export const Title = styled.h1`
 `
 
 export const Button = styled.button`
-    width: 280px;
-    height: 75px;
+    width: 255px;
+    height: 70px;
     background: linear-gradient(199.92deg, #800095 20.86%, #5D006C 86.7%);
     border-radius: 100px;
 
-    font-size: 38px;
+    font-size: 33px;
     color: white;
 `
