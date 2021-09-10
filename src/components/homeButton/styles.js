@@ -24,6 +24,7 @@ export const Button = styled.button`
     background: linear-gradient(199.92deg, #800095 20.86%, #5D006C 86.7%);
     border-radius: 100px;
 
+    cursor: pointer;
     font-size: 33px;
     color: white;
 `

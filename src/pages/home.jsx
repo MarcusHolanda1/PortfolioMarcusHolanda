@@ -1,5 +1,5 @@
 // import InsideContainer from '../components/containerInside'
-import MainContainer from '../components/container';
+import MainContainer from '../components/containerHome';
 import HomeButton from '../components/homeButton'
 import RocketSpace from '../components/rocketSpace'
 
