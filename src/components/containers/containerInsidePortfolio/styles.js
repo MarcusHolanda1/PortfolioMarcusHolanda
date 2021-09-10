@@ -1,14 +1,14 @@
 import styled from 'styled-components'
 
-export const Container = styled.section`
+export const Section = styled.section`
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column; 
 
 ` 
-export const Teste = styled.div`
-    margin-top: 30px;
+export const Container = styled.div`
+    margin-top: 50px;
     width: 900px;
     height: 250px;
 

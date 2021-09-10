@@ -1,12 +1,12 @@
-import { Container, Teste } from "./styles";
+import { Section, Container } from "./styles";
 
 const InsideContainer = (props) => {
     return (
-            <Container>
-                <Teste>
-                    
-                </Teste>
-            </Container>
+            <Section>
+                <Container>
+                    {props.children}
+                </Container>
+            </Section>
     );
 };
 
