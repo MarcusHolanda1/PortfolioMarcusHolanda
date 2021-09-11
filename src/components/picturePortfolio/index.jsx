@@ -1,13 +1,13 @@
-import { PictureDiv, Picture } from "./styles"
+import { PictureDiv, Picture, Icons } from "./styles";
 
-import PicturePhoto from '../../assets/images/me.jpg'
+import PicturePhoto from "../../assets/images/me.jpg";
 
-export const PicturePortfolio = props => {
+export const PicturePortfolio = (props) => {
     return (
-        <PictureDiv>
-            <Picture src={PicturePhoto}></Picture>
-        </PictureDiv>
-    )
-}
+            <PictureDiv>
+                <Picture src={PicturePhoto}></Picture>    
+            </PictureDiv>
+    );
+};
 
-export default PicturePortfolio
+export default PicturePortfolio;
