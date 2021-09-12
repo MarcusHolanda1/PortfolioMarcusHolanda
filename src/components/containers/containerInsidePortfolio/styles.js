@@ -14,4 +14,9 @@ export const Container = styled.div`
 
     background: #3B006A;
     border-radius: 15px;
+
+    -webkit-transition: 0.8s all ease;
+    transition: 0.8s all ease;
+    border: 3px solid #202020;
 `
+
