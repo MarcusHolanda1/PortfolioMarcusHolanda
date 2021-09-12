@@ -37,7 +37,7 @@ export const Picture = styled.div`
   animation: spin 10s linear infinite;
       
   
-  background-image: linear-gradient(white, white), radial-gradient(circle at top right, #2000FF
+  background-image: linear-gradient(white, white), radial-gradient(circle at top right, #A37DFF
   ,#E6024D
 );
 background-clip: content-box, border-box;
@@ -61,5 +61,8 @@ position: relative;
     height: 130px;
 
 
-
+     &::before, ::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 `

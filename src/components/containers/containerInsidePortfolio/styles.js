@@ -5,7 +5,7 @@ export const Section = styled.section`
     align-items: center;
     justify-content: space-between;
     flex-direction: column; 
-
+    overflow: hidden;
 ` 
 export const Container = styled.div`
     margin-top: 50px;
@@ -15,8 +15,16 @@ export const Container = styled.div`
     background: #3B006A;
     border-radius: 15px;
 
-    -webkit-transition: 0.8s all ease;
-    transition: 0.8s all ease;
-    border: 3px solid #202020;
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: all 0.60s ease 0s, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s;
+
+    border: 3px solid #3B006A;
+
+    &:hover{
+        border: 3px solid #6610f2;
+    }
+}
 `
 
