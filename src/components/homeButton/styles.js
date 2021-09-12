@@ -77,8 +77,8 @@ export const Title = styled.h1`
 export const Button = styled.button`
     width: 255px;
     height: 70px;
-    background: linear-gradient(199.92deg, #800095 20.86%, #5d006c 86.7%);
-    border-radius: 12px;
+    background: #8728FF;   
+     border-radius: 50px;
 
     cursor: pointer;
     font-size: 33px;

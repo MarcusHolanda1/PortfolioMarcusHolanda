@@ -3,10 +3,10 @@ import styled from 'styled-components'
 export const TitlesDiv = styled.div`
     position: absolute;
     top: 0;
-    left: 250px;
+    left: 230px;
     width: 630px;
     height: 245px;
-    border: 5px solid red; 
+    margin-left: 0px;
 `
 
 export const MyName = styled.h1`
@@ -28,16 +28,4 @@ export const MyProfession = styled.h4`
     color: #FFFFFF;
 `
 
-export const PortfolioButton = styled.button`
-    width: 120px;
-    height: 37px;
 
-    background: #8728FF;
-    border-radius: 100px;
-    margin-top: 20px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-`

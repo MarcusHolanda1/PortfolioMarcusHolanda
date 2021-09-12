@@ -1,4 +1,4 @@
-import { TitlesDiv, MyName, MyProfession, PortfolioButton } from "./styles";
+import { TitlesDiv, MyName, MyProfession } from "./styles";
 import Typewriter from "typewriter-effect";
 
 const TitlesProfile = (props) => {
@@ -27,7 +27,7 @@ const TitlesProfile = (props) => {
                 sempre adquirir novos conhecimentos, experiência e novos
                 desafios. Atualmente trabalho com desenvolvimento Mobile na PaP
             </MyProfession>
-            <PortfolioButton />
+            {props.children}
         </TitlesDiv>
     );
 };
