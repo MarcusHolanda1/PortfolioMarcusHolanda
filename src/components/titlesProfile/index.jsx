@@ -23,7 +23,7 @@ const TitlesProfile = (props) => {
                 ></Typewriter>
             </MyName>
             <MyProfession>
-                Sou apenas um desenvolvedor front-end esforçado em busca de
+                Sou apenas um desenvolvedor front-end esforçado, em busca de
                 sempre adquirir novos conhecimentos, experiência e novos
                 desafios. Atualmente trabalho com desenvolvimento Mobile na PaP
             </MyProfession>

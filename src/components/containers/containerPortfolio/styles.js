@@ -4,6 +4,7 @@ export const ContainerPortfolio = styled.main`
     width: 100%;
     min-height: 100vh; /*    height: auto; */
     background: #160023;
+    padding-top: 45px;
 
     /* display: flex;
     align-items: center;

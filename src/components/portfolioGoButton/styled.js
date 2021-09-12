@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Div = styled.div`
+export const DivPortfolioButton = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,7 @@ export const PortfolioButton = styled.button`
 
     position: absolute;
     top: 90%;
-    left: 47%;
+    left: 43%;
     margin: -25px 0 0 -25px;
 
     cursor: pointer;

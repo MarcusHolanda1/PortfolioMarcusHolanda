@@ -1,10 +1,10 @@
-import { Div, PortfolioButton } from "./styled";
+import { DivPortfolioButton, PortfolioButton } from "./styled";
 
 const PortfolioGoButton = (props) => {
     return (
-        <Div>
+        <DivPortfolioButton>
             <PortfolioButton>PORTFÓLIO</PortfolioButton>
-        </Div>
+        </DivPortfolioButton>
     );
 };
 export default PortfolioGoButton;

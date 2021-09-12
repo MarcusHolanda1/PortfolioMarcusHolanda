@@ -15,6 +15,9 @@ const Portfolio = (props) => {
                     <PortfolioGoButton />
                 </TitlesProfile>
             </InsideContainer>
+            <InsideContainer>
+                
+            </InsideContainer>
         </MainContainerPortfolio>
     );
 };

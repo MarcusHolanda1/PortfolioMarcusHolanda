@@ -6,10 +6,10 @@ export const Section = styled.section`
     justify-content: space-between;
     flex-direction: column;
     overflow: hidden;
+    margin-bottom: 22px;
 `;
 
 export const Container = styled.div`
-    margin-top: 50px;
     width: 900px;
     height: 250px;
 
