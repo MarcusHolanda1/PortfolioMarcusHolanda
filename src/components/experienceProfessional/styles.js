@@ -34,7 +34,7 @@ export const CardExperienceProfessional = styled.div`
     margin-top: 20px;
     margin-left: 50px;
     width: 340px;
-    height: 350px;
+    height: 340px;
     display: flex;
     flex-direction: column;
     background: #8728ff;

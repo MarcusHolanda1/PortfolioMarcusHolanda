@@ -9,7 +9,7 @@ export const DivPortfolioButton = styled.div`
 export const PortfolioButton = styled.button`
     width: 120px;
     height: 40px;
-    background: #8728FF;
+    background: #8728ff;
     border-radius: 100px;
 
     position: absolute;

@@ -31,7 +31,7 @@ export const Picture = styled.div`
     animation: spin 10s linear infinite;
 
     background-image: linear-gradient(white, white),
-        radial-gradient(circle at top right, #BEB5FF, #FF018E);
+        radial-gradient(circle at top right, #FFFF, #8728ff);
     background-clip: content-box, border-box;
 
     border: double 4px transparent;
