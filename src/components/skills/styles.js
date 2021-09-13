@@ -12,25 +12,33 @@ export const SkillsTitle = styled.h1`
     margin-left: 70px;
 
     color: white;
-    font-size: 18px;
+    font-size: 24px;
     text-align: left;
 `;
 
-export const ImageSkillsTest = styled.img`
-    position: relative;
-    margin-top: 40px;
-    margin-left: 50px;
+ export const ImageSkillsTest = styled.img` 
+        margin-right: 20px;
+     width: 45px;
+     height: 45px;
+ `
 
-    width: 45px;
-    height: 45px;
+ export const SpanSkillTest = styled.span`
+     position: absolute;
+     color: white;
+
+     margin-top: 12px;
+
+    
+ `
+
+
+
+export const DivSkillTest = styled.div`
+    width: 300px;
+    height: 300px;
+
+    margin-left: 60px;
+    margin-top: 30px;
+
+    border: 2px solid red;
 `
-
-export const SpanSkillTest = styled.span`
-    position: absolute;
-    color: white;
-
-    margin-top: 50px;
-    margin-left: 20px;
-`
-
-// div 

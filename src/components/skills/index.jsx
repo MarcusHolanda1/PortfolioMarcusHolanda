@@ -3,6 +3,7 @@ import {
     SkillsTitle,
     ImageSkillsTest,
     SpanSkillTest,
+    DivSkillTest,
 } from "./styles";
 
 import ImageSkills from "../../assets/icons/icons8-javascript-480.png";
@@ -14,8 +15,14 @@ const Skills = (props) => {
                 Principais habilidades
                 
             </SkillsTitle>
-            <ImageSkillsTest src={ImageSkills}></ImageSkillsTest>
+            {/* <ImageSkillsTest src={ImageSkills}></ImageSkillsTest>
+                <SpanSkillTest>JavaScript</SpanSkillTest> */}
+            <DivSkillTest>
+                {/* <img src={ImageSkills} width={'45px'} height={'45px'}></img>
+                <span>JavaScript</span> */}
+                <ImageSkillsTest src={ImageSkills}></ImageSkillsTest>
                 <SpanSkillTest>JavaScript</SpanSkillTest>
+            </DivSkillTest>
         </DivSkills>
     );
 };
