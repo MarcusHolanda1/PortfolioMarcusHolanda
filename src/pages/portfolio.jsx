@@ -6,6 +6,9 @@ import TitlesProfile from "../components/titlesProfile";
 import PortfolioGoButton from "../components/portfolioGoButton";
 import ExperienceProfessional from "../components/experienceProfessional";
 import InsideContainerCard from '../components/containers/containerInsideCards';
+import InsideContainerSkills from '../components/containers/containerInsideCards';
+import Skills from '../components/skills'
+
 
 const Portfolio = (props) => {
     return (
@@ -20,6 +23,11 @@ const Portfolio = (props) => {
             <InsideContainerCard>
                 <ExperienceProfessional></ExperienceProfessional>
             </InsideContainerCard>
+            <InsideContainerSkills>
+                <Skills>
+                    
+                </Skills>
+            </InsideContainerSkills>
         </MainContainerPortfolio>
     );
 };
