@@ -17,16 +17,17 @@ export const SkillsTitle = styled.h1`
 `;
 
  export const ImageSkillsTest = styled.img` 
-        margin-right: 20px;
-     width: 45px;
-     height: 45px;
+    margin-right: 10px;
+    margin-left: 0;
  `
 
  export const SpanSkillTest = styled.span`
      position: absolute;
      color: white;
 
-     margin-top: 12px;
+     font-size: 16px;
+
+     margin-top: 10px;
 
     
  `
@@ -35,10 +36,10 @@ export const SkillsTitle = styled.h1`
 
 export const DivSkillTest = styled.div`
     width: 300px;
-    height: 300px;
+    height: 50px;
 
     margin-left: 60px;
     margin-top: 30px;
 
-    border: 2px solid red;
+
 `
