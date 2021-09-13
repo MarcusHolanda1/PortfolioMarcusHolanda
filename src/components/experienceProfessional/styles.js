@@ -31,15 +31,14 @@ export const TitleExperienceProfessional = styled.h2`
 `;
 
 export const CardExperienceProfessional = styled.div`
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 50px;
-    width: 310px;
-    height: 180px;
+    width: 340px;
+    height: 350px;
     display: flex;
     flex-direction: column;
-    background: #8728FF;
+    background: #8728ff;
     border-radius: 10px;
-
 `;
 
 export const ImageCard = styled.img`
@@ -52,9 +51,36 @@ export const ImageCard = styled.img`
     margin-right: auto;
 `;
 
+export const DivExp = styled.div`
+    width: 280px;
+    height: 240px;
+
+    margin-left: auto;
+    margin-right: auto;
+`;
+
 export const TitleCard = styled.h3`
     margin-top: 20px;
     color: white;
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
+`;
+export const ExpAPP = styled.h4`
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    
+    color: #b6b6b6;
+
+    margin-top: 20px;
+`;
+
+export const ExpText = styled.h4`
+    margin-top: 10px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+
+    color: white;
+    font-weight: normal;
 `
+
