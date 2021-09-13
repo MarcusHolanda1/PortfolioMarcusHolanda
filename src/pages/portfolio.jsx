@@ -4,7 +4,8 @@ import PicturePortfolio from "../components/picturePortfolio";
 import IconsPicture from "../components/iconsPicture";
 import TitlesProfile from "../components/titlesProfile";
 import PortfolioGoButton from "../components/portfolioGoButton";
-import ExperienceProfessional from '../components/experienceProfessional';
+import ExperienceProfessional from "../components/experienceProfessional";
+import InsideContainerCard from '../components/containers/containerInsideCards';
 
 const Portfolio = (props) => {
     return (
@@ -16,11 +17,9 @@ const Portfolio = (props) => {
                     <PortfolioGoButton />
                 </TitlesProfile>
             </InsideContainer>
-            <InsideContainer>
-                <ExperienceProfessional>
-
-                </ExperienceProfessional>
-            </InsideContainer>
+            <InsideContainerCard>
+                <ExperienceProfessional></ExperienceProfessional>
+            </InsideContainerCard>
         </MainContainerPortfolio>
     );
 };
