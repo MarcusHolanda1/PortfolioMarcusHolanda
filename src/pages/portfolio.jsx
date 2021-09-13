@@ -4,6 +4,7 @@ import PicturePortfolio from "../components/picturePortfolio";
 import IconsPicture from "../components/iconsPicture";
 import TitlesProfile from "../components/titlesProfile";
 import PortfolioGoButton from "../components/portfolioGoButton";
+import ExperienceProfessional from '../components/experienceProfessional';
 
 const Portfolio = (props) => {
     return (
@@ -16,7 +17,9 @@ const Portfolio = (props) => {
                 </TitlesProfile>
             </InsideContainer>
             <InsideContainer>
-                
+                <ExperienceProfessional>
+
+                </ExperienceProfessional>
             </InsideContainer>
         </MainContainerPortfolio>
     );
