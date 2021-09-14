@@ -23,19 +23,19 @@ const Skills = (props) => {
             <SkillsTitle>Principais habilidades</SkillsTitle>
             <DivSkillTest>
                 <ImageSkillsTest src={ImageSkillsJavaScript} width={'32px'} height={'32px'}></ImageSkillsTest>
-                <SpanSkillTest>JavaScript</SpanSkillTest>
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank"><SpanSkillTest>JavaScript</SpanSkillTest></a>
             </DivSkillTest>
             <DivSkillTest>
                 <ImageSkillsTest src={ImageSkillsReactJS} width={'35px'} height={'35px'}></ImageSkillsTest>
-                <SpanSkillTest>React JS</SpanSkillTest>
+                <a href="https://pt-br.reactjs.org/" target="_blank"><SpanSkillTest>React JS</SpanSkillTest></a>
             </DivSkillTest>
             <DivSkillTest>
                 <ImageSkillsTest src={ImageSkillsNative} width={'35px'} height={'38px'}></ImageSkillsTest>
-                <SpanSkillTest>React Native</SpanSkillTest>
+                <a href="https://reactnative.dev/" target="_blank"><SpanSkillTest>React Native</SpanSkillTest></a>
             </DivSkillTest>
             <DivSkillTest>
                 <ImageSkillsTest src={ImageSkillsRuby} width={'30px'} height={'37px'}></ImageSkillsTest>
-                <SpanSkillTest>Ruby on Rails</SpanSkillTest>
+                <a href="https://rubyonrails.org/" target="_blank"><SpanSkillTest>Ruby on Rails</SpanSkillTest></a>
             </DivSkillTest>
         </DivSkills>
 
@@ -44,19 +44,19 @@ const Skills = (props) => {
             <SkillsTitle>Outras habilidades</SkillsTitle>
             <DivSkillTest>
                 <ImageSkillsTest src={ImageSkillsGit} width={'32px'} height={'32px'}></ImageSkillsTest>
-                {/* <SpanSkillTest>Git / Gitflow</SpanSkillTest> <a href="https://github.com/MarcusHolanda1" target="_blank">  */}
+                <a href="https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank"><SpanSkillTest>Git / Gitflow</SpanSkillTest></a>
             </DivSkillTest>
             <DivSkillTest>
                 <ImageSkillsTest src={ImageSkillsMySQL} width={'35px'} height={'35px'}></ImageSkillsTest>
-                <SpanSkillTest>MySQL</SpanSkillTest>
+                <a href="https://www.mysql.com/" target="_blank"><SpanSkillTest>MySQL</SpanSkillTest></a>
             </DivSkillTest>
             <DivSkillTest>
                 <ImageSkillsTest src={ImageSkillsSwagger} width={'35px'} height={'38px'}></ImageSkillsTest>
-                <SpanSkillTest>Swagget API</SpanSkillTest>
+                <a href="https://swagger.io/" target="_blank"><SpanSkillTest>Swagget API</SpanSkillTest></a>
             </DivSkillTest>
             <DivSkillTest>
                 <ImageSkillsTest src={ImageSkillsFigma} width={'30px'} height={'37px'}></ImageSkillsTest>
-                <SpanSkillTest>Figma</SpanSkillTest>
+                <a href="https://www.figma.com/" target="_blank"><SpanSkillTest>Figma</SpanSkillTest></a>
             </DivSkillTest>
         </DivSkills>
         </>

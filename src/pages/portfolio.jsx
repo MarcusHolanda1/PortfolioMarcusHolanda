@@ -6,7 +6,7 @@ import TitlesProfile from "../components/titlesProfile";
 import PortfolioGoButton from "../components/portfolioGoButton";
 import ExperienceProfessional from "../components/experienceProfessional";
 import InsideContainerCard from '../components/containers/containerInsideCards';
-import InsideContainerSkills from '../components/containers/containerInsideCards';
+import InsideContainerSkills from '../components/containers/containerInsideSkills';
 import Skills from '../components/skills'
 
 

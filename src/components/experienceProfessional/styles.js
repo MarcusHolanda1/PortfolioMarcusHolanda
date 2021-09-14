@@ -5,7 +5,7 @@ export const DivExperienceProfessional = styled.div`
     width: 900px;
     height: 200px;
     margin-left: 0px;
-    margin-top: 10px;
+    margin-top: 20px;
 
     display: flex;
     flex-direction: row;
@@ -19,6 +19,8 @@ export const TitleExperienceProfessional = styled.h2`
     flex-direction: column;
     padding-bottom: 5px;
     position: relative;
+
+    margin-top: 35px;
 
     color: white;
 
