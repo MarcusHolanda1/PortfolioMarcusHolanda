@@ -2,12 +2,12 @@ import styled from "styled-components";
 
 export const DivSkills = styled.section`
     width: 400px;
-    height: 400px;
+    height: 300px;
 
     display: inline-block;
     flex-direction: row;
     margin-left: 0px;
-    margin-top: 35px;
+    margin-top: 30px;
 `;
 
 export const SkillsTitle = styled.h1`
