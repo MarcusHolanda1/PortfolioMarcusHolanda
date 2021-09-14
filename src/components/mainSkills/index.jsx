@@ -16,7 +16,7 @@ import ImageSkillsMySQL from '../../assets/icons/mysql.svg'
 import ImageSkillsSwagger from '../../assets/icons/swagger.svg'
 import ImageSkillsFigma from '../../assets/icons/figma.svg'
 
-const Skills = (props) => {
+const MainSkills = (props) => {
     return (
         <>
         <DivSkills>
@@ -62,4 +62,4 @@ const Skills = (props) => {
         </>
     );
 };
-export default Skills;
+export default MainSkills;
