@@ -7,11 +7,15 @@ export const Section = styled.section`
     flex-direction: column;
     overflow: hidden;
     margin-bottom: 22px;
+    
+    
 `;
 
 export const Container = styled.div`
-    width: 900px;
-    height: 250px;
+
+ width: min(90vw, 900px);
+ height: max(30vh, 250px);
+    margin: auto;
 
     background: #3b006a;
     border-radius: 15px;
@@ -27,4 +31,15 @@ export const Container = styled.div`
     &:hover {
         border: 3px solid #6610f2;
     }
+    
+
+    @media (max-width: 975px) {
+    height: max(50vh, 250px);
+    background-color: red;
+  }
+
+  @media (max-width: 650px) {
+        width: 300px;
+        height: 700px;
+  }
 `;

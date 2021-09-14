@@ -7,6 +7,20 @@ export const TitlesDiv = styled.div`
     width: 630px;
     height: 245px;
     margin-left: 0px;
+    border: 2px solid black;
+
+    @media (max-width: 970px) {
+        width: 545px;
+  }
+    @media (max-width: 890px) {
+        width: 345px;
+        height: 320px;
+  }
+    @media (max-width: 650px) {
+        width: 230px;
+        top: 250px;
+        left: 30px;        
+  }
 `
 
 export const MyName = styled.h1`
@@ -16,6 +30,11 @@ export const MyName = styled.h1`
     font-size: 40px;
 
     color: #FFFFFF;
+
+    @media (max-width: 650px) {
+        font-size: 20px;
+    }
+
 `
 
 export const MyProfession = styled.h4`
@@ -25,8 +44,14 @@ export const MyProfession = styled.h4`
     font-size: 15px;
 
     margin-right: 25px;
-    text-align: justify;
+    
+    text-align: start;
     color: #FFFFFF;
+
+    @media (max-width: 650px) {
+        font-size: 15px;
+        margin-right: 0px;
+    }
 `
 
 
