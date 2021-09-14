@@ -5,10 +5,11 @@ import IconsPicture from "../components/iconsPicture";
 import TitlesProfile from "../components/titlesProfile";
 import PortfolioGoButton from "../components/portfolioGoButton";
 import ExperienceProfessional from "../components/experienceProfessional";
-import InsideContainerCard from '../components/containers/containerInsideCards';
-import InsideContainerSkills from '../components/containers/containerInsideSkills';
-import Skills from '../components/skills'
-
+import InsideContainerCard from "../components/containers/containerInsideCards";
+import InsideContainerSkills from "../components/containers/containerInsideSkills";
+import Skills from "../components/skills";
+import InsideContainerSkillsGeneral from "../components/containers/containerInsideSkillsGeneral";
+import SkillsGeneral from '../components/skillsGeneral'
 
 const Portfolio = (props) => {
     return (
@@ -16,17 +17,18 @@ const Portfolio = (props) => {
             <InsideContainer>
                 <PicturePortfolio></PicturePortfolio>
                 <IconsPicture></IconsPicture>
-                <TitlesProfile>
-                </TitlesProfile>
+                <TitlesProfile></TitlesProfile>
             </InsideContainer>
             <InsideContainerCard>
                 <ExperienceProfessional></ExperienceProfessional>
             </InsideContainerCard>
             <InsideContainerSkills>
-                <Skills>
-                    
-                </Skills>
+                <Skills></Skills>
             </InsideContainerSkills>
+
+            <InsideContainerSkillsGeneral>
+                <SkillsGeneral></SkillsGeneral>
+            </InsideContainerSkillsGeneral>
         </MainContainerPortfolio>
     );
 };
