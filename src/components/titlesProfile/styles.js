@@ -24,6 +24,7 @@ export const MyProfession = styled.h4`
     margin-top: 40px;
     font-size: 15px;
 
+    margin-right: 25px;
     text-align: justify;
     color: #FFFFFF;
 `

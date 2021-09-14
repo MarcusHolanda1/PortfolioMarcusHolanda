@@ -6,7 +6,7 @@ export const DivSkills = styled.section`
 
     display: inline-block;
     flex-direction: row;
-    margin-left: 30px;
+    margin-left: 0px;
     margin-top: 35px;
 `;
 
@@ -23,7 +23,7 @@ export const SpanSkillTest = styled.a`
 
     font-size: 17px;
 
-    margin-right: 30px;
+    margin-right: 42px;
 `;
 
 export const DivSkillTest = styled.div`

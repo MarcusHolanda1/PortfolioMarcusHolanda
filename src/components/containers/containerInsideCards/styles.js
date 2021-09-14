@@ -11,7 +11,7 @@ export const Section = styled.section`
 
 export const Container = styled.div`
     width: 900px;
-    height: 500px;
+    height: 485px;
 
     background: #3b006a;
     border-radius: 15px;

@@ -6,7 +6,7 @@ export const DivSkills = styled.section`
 
     display: inline-block;
     flex-direction: row;
-    margin-left: 31px;
+    margin-left: 0px;
 `;
 
 export const SkillsTitle = styled.h1`

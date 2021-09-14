@@ -14,7 +14,7 @@ const SkillsGeneral = (props) => {
     return (
         <>
             <DivSkills>
-                <SkillsTitle>Principais habilidades</SkillsTitle>
+                <SkillsTitle>Conhecimentos gerais</SkillsTitle>
                 <DivSkillTest>
                     <ImageSkillsTest
                         src={ImageSkillsGeneralHtml}

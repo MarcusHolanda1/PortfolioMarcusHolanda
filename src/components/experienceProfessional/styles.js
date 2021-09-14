@@ -5,7 +5,7 @@ export const DivExperienceProfessional = styled.div`
     width: 900px;
     height: 200px;
     margin-left: 0px;
-    margin-top: 20px;
+    margin-top: 10px;
 
     display: flex;
     flex-direction: row;
@@ -24,14 +24,14 @@ export const TitleExperienceProfessional = styled.h2`
 
     color: white;
 
-    &:after {
+    /* &:after {
         content: "";
         position: absolute;
         width: 20%;
         height: 1px;
         bottom: 0;
         border-bottom: 1px solid #7806bd;
-    }
+    } */
 `;
 
 export const CardExperienceProfessional = styled.div`
