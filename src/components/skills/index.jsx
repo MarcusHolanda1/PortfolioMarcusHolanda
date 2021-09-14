@@ -44,7 +44,7 @@ const Skills = (props) => {
             <SkillsTitle>Outras habilidades</SkillsTitle>
             <DivSkillTest>
                 <ImageSkillsTest src={ImageSkillsGit} width={'32px'} height={'32px'}></ImageSkillsTest>
-                <SpanSkillTest>Git / Gitflow</SpanSkillTest>
+                {/* <SpanSkillTest>Git / Gitflow</SpanSkillTest> <a href="https://github.com/MarcusHolanda1" target="_blank">  */}
             </DivSkillTest>
             <DivSkillTest>
                 <ImageSkillsTest src={ImageSkillsMySQL} width={'35px'} height={'35px'}></ImageSkillsTest>

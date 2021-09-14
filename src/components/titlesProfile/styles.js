@@ -12,7 +12,7 @@ export const TitlesDiv = styled.div`
 export const MyName = styled.h1`
     font-style: normal;
     font-weight: normal;
-    margin-top: 20px;
+    margin-top: 40px;
     font-size: 40px;
 
     color: #FFFFFF;

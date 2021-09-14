@@ -7,8 +7,8 @@ import IconEmail from '../../assets/icons/email_icon.svg'
 import IconLinkedin from '../../assets/icons/linkedin-icon-18-ffffff-23.ico'
 
 export const IconsDiv = styled.div`
-    margin-left: 68px;
-    margin-top: 50px;
+    margin-left: 58px;
+    margin-top: 30px;
 `;
 
 export const IconGithubCSS = styled.button`

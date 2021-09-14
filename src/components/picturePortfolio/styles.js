@@ -9,8 +9,8 @@ export const PictureDiv = styled.div`
 `;
 
 export const Picture = styled.div`
-    margin-top: 48px;
-    margin-left: 68px;
+    margin-top: 38px;
+    margin-left: 58px;
     width: 134px;
     height: 134px;
     border: solid 2.5px transparent;
@@ -45,8 +45,8 @@ export const Picture = styled.div`
 export const Vaisefode = styled.img`
     position: relative;
     border-radius: 50%;
-    margin-top: 50px;
-    margin-left: 70px;
+    margin-top: 40px;
+    margin-left: 60px;
     width: 130px;
     height: 130px;
 
