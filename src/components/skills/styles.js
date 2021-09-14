@@ -1,19 +1,25 @@
 import styled from 'styled-components'
 
 export const DivSkills = styled.section`
-    width: 900px;
+    width: 400px;
     height: 400px;
-    border: 2px solid red;
+
+    display: inline-block;
+    flex-direction: row;
+    margin-left: 31px;
+   
 `
 
 export const SkillsTitle = styled.h1`
 
     margin-top: 20px;
-    margin-left: 70px;
+    margin-left: 60px;
 
     color: white;
     font-size: 24px;
     text-align: left;
+
+    
 `;
 
  export const ImageSkillsTest = styled.img` 
