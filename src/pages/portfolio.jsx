@@ -17,7 +17,6 @@ const Portfolio = (props) => {
                 <PicturePortfolio></PicturePortfolio>
                 <IconsPicture></IconsPicture>
                 <TitlesProfile>
-                    <PortfolioGoButton />
                 </TitlesProfile>
             </InsideContainer>
             <InsideContainerCard>
