@@ -15,6 +15,9 @@ export const SkillsTitle = styled.h1`
     color: white;
     font-size: 24px;
     text-align: left;
+    
+
+
 `;
 
 export const SpanSkillTest = styled.a`
@@ -24,12 +27,30 @@ export const SpanSkillTest = styled.a`
     font-size: 17px;
 
     margin-right: 42px;
+
+
+
 `;
 
 export const DivSkillTest = styled.div`
-    width: 300px;
-    height: 50px;
+    width: 790px;
+    height: 90px;
 
     margin-left: 60px;
     margin-top: 15px;
+    
+
+
+    @media (max-width: 975px) {
+    width: 740px;
+    height: max(15vh, 100px);
+
+}
+
+  @media (max-width: 650px) {
+    width: 300px;
+    height: 390px;
+      
+      
+}
 `;

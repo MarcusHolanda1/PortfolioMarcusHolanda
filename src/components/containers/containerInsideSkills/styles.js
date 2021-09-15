@@ -11,7 +11,7 @@ export const Section = styled.section`
 
 export const Container = styled.div`
      width: min(90vw, 900px);
-    height: max(30vh, 465px);
+    height: max(30vh, 415px);
     margin: auto;
 
     background: #3b006a;
