@@ -7,7 +7,6 @@ import {
     ExpAPP,
     ExpText,
     DivExp,
-    TitleExperienceProfessionalTester,
     CardExperienceProfessionalTester,
     ImageCardTester,
     DivExpTester,

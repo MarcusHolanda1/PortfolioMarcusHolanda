@@ -1,7 +1,6 @@
 import {
     DivSkills,
     SkillsTitle,
-    ImageSkillsTest,
     SpanSkillTest,
     DivSkillTest,
 } from "./styles";

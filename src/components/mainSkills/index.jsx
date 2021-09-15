@@ -29,6 +29,7 @@ const MainSkills = (props) => {
                     ></ImageSkillsTest>
                     <a
                         href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+                        rel="noopener noreferrer"
                         target="_blank"
                     >
                         <SpanSkillTest>JavaScript</SpanSkillTest>
@@ -40,7 +41,11 @@ const MainSkills = (props) => {
                         width={"35px"}
                         height={"35px"}
                     ></ImageSkillsTest>
-                    <a href="https://pt-br.reactjs.org/" target="_blank">
+                    <a
+                        href="https://pt-br.reactjs.org/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
                         <SpanSkillTest>React JS</SpanSkillTest>
                     </a>
                 </DivSkillTest>
@@ -50,7 +55,11 @@ const MainSkills = (props) => {
                         width={"35px"}
                         height={"38px"}
                     ></ImageSkillsTest>
-                    <a href="https://reactnative.dev/" target="_blank">
+                    <a
+                        href="https://reactnative.dev/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
                         <SpanSkillTest>React Native</SpanSkillTest>
                     </a>
                 </DivSkillTest>
@@ -60,7 +69,11 @@ const MainSkills = (props) => {
                         width={"30px"}
                         height={"37px"}
                     ></ImageSkillsTest>
-                    <a href="https://rubyonrails.org/" target="_blank">
+                    <a
+                        href="https://rubyonrails.org/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
                         <SpanSkillTest>Ruby on Rails</SpanSkillTest>
                     </a>
                 </DivSkillTest>
@@ -76,6 +89,7 @@ const MainSkills = (props) => {
                     ></ImageSkillsTest>
                     <a
                         href="https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow"
+                        rel="noopener noreferrer"
                         target="_blank"
                     >
                         <SpanSkillTest>Git / Gitflow</SpanSkillTest>
@@ -87,7 +101,11 @@ const MainSkills = (props) => {
                         width={"35px"}
                         height={"35px"}
                     ></ImageSkillsTest>
-                    <a href="https://www.mysql.com/" target="_blank">
+                    <a
+                        href="https://www.mysql.com/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
                         <SpanSkillTest>MySQL</SpanSkillTest>
                     </a>
                 </DivSkillTest>
@@ -97,7 +115,11 @@ const MainSkills = (props) => {
                         width={"35px"}
                         height={"38px"}
                     ></ImageSkillsTest>
-                    <a href="https://swagger.io/" target="_blank">
+                    <a
+                        href="https://swagger.io/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
                         <SpanSkillTest>Swagget API</SpanSkillTest>
                     </a>
                 </DivSkillTest>
@@ -107,7 +129,11 @@ const MainSkills = (props) => {
                         width={"30px"}
                         height={"37px"}
                     ></ImageSkillsTest>
-                    <a href="https://www.figma.com/" target="_blank">
+                    <a
+                        href="https://www.figma.com/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
                         <SpanSkillTest>Figma</SpanSkillTest>
                     </a>
                 </DivSkillTest>
