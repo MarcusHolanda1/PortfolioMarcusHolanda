@@ -12,8 +12,8 @@ export const Section = styled.section`
 
 export const Container = styled.div`
 
- width: min(90vw, 900px);
- height: max(30vh, 465px);
+    width: min(90vw, 900px);
+    height: max(30vh, 465px);
     margin: auto;
 
     background: #3b006a;
@@ -38,6 +38,6 @@ export const Container = styled.div`
 
   @media (max-width: 650px) {
         width: 300px;
-        height: 900px;
+        height: 815px;
   }
 `;

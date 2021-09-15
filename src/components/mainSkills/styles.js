@@ -1,12 +1,14 @@
 import styled from "styled-components";
 
-export const DivSkills = styled.section`
+export const DivSkills = styled.div`
     width: 400px;
     height: 400px;
 
     display: inline-block;
     flex-direction: row;
     margin-left: 0px;
+
+    
 `;
 
 export const SkillsTitle = styled.h1`
@@ -16,6 +18,11 @@ export const SkillsTitle = styled.h1`
     color: white;
     font-size: 24px;
     text-align: left;
+
+    @media (max-width: 650px) {
+        font-size: 17px;
+        
+  }
 `;
 
 export const ImageSkillsTest = styled.img`
@@ -64,4 +71,5 @@ export const DivSkillTest = styled.div`
 
     margin-left: 60px;
     margin-top: 30px;
+
 `;

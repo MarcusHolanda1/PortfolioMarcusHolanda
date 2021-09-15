@@ -10,8 +10,9 @@ export const Section = styled.section`
 `;
 
 export const Container = styled.div`
-    width: 900px;
-    height: 415px;
+     width: min(90vw, 900px);
+    height: max(30vh, 465px);
+    margin: auto;
 
     background: #3b006a;
     border-radius: 15px;
@@ -27,4 +28,15 @@ export const Container = styled.div`
     &:hover {
         border: 3px solid #6610f2;
     }
+
+    @media (max-width: 975px) {
+    height: max(50vh, 830px);
+
+  }
+
+  @media (max-width: 650px) {
+        width: 300px;
+        height: 815px;
+        
+  }
 `;
