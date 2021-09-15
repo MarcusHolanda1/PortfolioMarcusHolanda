@@ -47,18 +47,43 @@ export const DivRocket = styled.div`
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+
+@media (max-width: 650px) {
+        margin-top: 30px;
+        margin-bottom: 40px;
+
+        width: 350px;
+        height: 215px;
+        
+  }
+
     `;
 
 export const SpaceRocketImage = styled.img`
     width: 400px;
     height: 400px;    
 
-    
+@media (max-width: 650px) {
+        margin-top: 70px;
+
+        width: 250px;
+        height: 715px;
+        
+  }
 `;
 
 export const Rocket = styled.img`
     
-     
+    @media (max-width: 650px) {
+        margin-top: 70px;
+
+        width: 130px;
+        height: 715px;
+        
+  }
+  
+
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;

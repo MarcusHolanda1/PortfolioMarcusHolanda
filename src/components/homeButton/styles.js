@@ -8,6 +8,8 @@ export const Section = styled.section`
     justify-content: center;
     flex-direction: column;
 
+    margin-bottom: 50px;
+
     -webkit-animation: fadein 7s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 7s; /* Firefox < 16 */
     -ms-animation: fadein 7s; /* Internet Explorer */
@@ -72,13 +74,18 @@ export const Title = styled.h1`
     font-style: normal;
     font-weight: normal;
     color: #ffffff;
+
+    @media (max-width: 650px) {
+       font-size: 30px;
+        
+  }
 `;
 
 export const Button = styled.button`
     width: 255px;
     height: 70px;
     background: #8728FF;   
-     border-radius: 50px;
+     border-radius: 15px;
 
     cursor: pointer;
     font-size: 33px;
@@ -89,4 +96,10 @@ export const Button = styled.button`
         transform: translateY(-0.09em);
         transition: all 0.8s ease 0s;
     }
+
+    @media (max-width: 650px) {
+       font-size: 25px;
+        width: 230px;
+    height: 65px;
+  }
 `;

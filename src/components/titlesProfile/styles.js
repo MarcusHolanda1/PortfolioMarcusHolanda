@@ -8,6 +8,7 @@ export const TitlesDiv = styled.div`
     height: 245px;
     margin-left: 0px;
 
+
     @media (max-width: 970px) {
         width: 545px;
   }
@@ -17,7 +18,7 @@ export const TitlesDiv = styled.div`
   }
     @media (max-width: 650px) {
         width: 230px;
-        top: 220px;
+        top: 250px;
         left: 30px;        
   }
 `

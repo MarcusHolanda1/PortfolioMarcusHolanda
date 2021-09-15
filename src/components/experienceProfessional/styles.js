@@ -121,10 +121,15 @@ export const DivExp = styled.div`
     margin-left: auto;
     margin-right: auto;  
     
-    @media (max-width: 650px) {
+   @media (max-width: 650px) {
     width: 240px;
     height: 340px;
+
+    padding-left: 20px;
+    padding-right: 20px;
   }
+
+  
  
 `;
 
@@ -142,6 +147,8 @@ export const ExpAPP = styled.h4`
     color: #b6b6b6;
 
     margin-top: 20px;
+
+ 
 `;
 
 export const ExpText = styled.h4`
@@ -151,6 +158,10 @@ export const ExpText = styled.h4`
 
     color: white;
     font-weight: normal;
+
+    @media (max-width: 650px) {
+   font-size:13px;
+  }
 `
 
 ///Tester
@@ -226,6 +237,9 @@ export const DivExpTester = styled.div`
     @media (max-width: 650px) {
     width: 240px;
     height: 340px;
+
+    padding-left: 20px;
+    padding-right: 20px;
   }
 `;
 
@@ -245,6 +259,10 @@ export const ExpAPPTester = styled.h4`
     color: #b6b6b6;
 
     margin-top: 20px;
+
+    @media (max-width: 650px) {
+   font-size:13px;
+  }
 `;
 
 export const ExpTextTester = styled.h4`

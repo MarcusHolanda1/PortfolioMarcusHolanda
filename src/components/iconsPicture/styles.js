@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
-import IconGithub from '../../assets/icons/GitHub_Icon.svg'
+import IconGithub from '../../assets/icons/github.svg'
 // import IconLinkedin from '../../assets/icons/—Pngtree—linkedin white icon_3570423 1 (1).svg'
-import IconEmail from '../../assets/icons/email_icon.svg'
+import IconEmail from '../../assets/icons/email.svg'
 
 import IconLinkedin from '../../assets/icons/linkedin-icon-18-ffffff-23.ico'
 
 export const IconsDiv = styled.div`
-    margin-left: 58px;
-    margin-top: 30px;
+    margin-left: 70px;
+    margin-top: 45px;
 
     
     @media (max-width: 650px) {
@@ -19,16 +19,15 @@ export const IconsDiv = styled.div`
 
 export const IconGithubCSS = styled.button`
     
-    width: 54px;
-    height: 36px;
+    width: 27px;
+    height: 27px;
+    margin-right: 13px;
 
     background-color: #3B006A;
     background-image: url(${IconGithub});
     cursor: pointer;
+    background-repeat: no-repeat;
 
-    &:hover{
-        background-color: black;
-    }
 
 `;
 
@@ -37,7 +36,7 @@ export const IconLinkedinCSS = styled.button`
     margin-right: 9px;
 
     width: 25px;
-    height: 29px;
+    height: 25px;
 
     background-color: red;
     background-image: url(${IconLinkedin});
@@ -46,22 +45,16 @@ export const IconLinkedinCSS = styled.button`
     cursor: pointer;
 
 
-    &:hover{
-        background-color: black;
-    }
-
 `;
 
 export const IconEmailCSS = styled.button`
     /* padding-bottom: 30px; */
-    width: 32px;
-    height: 35px;
+    width: 27px;
+    height: 27px;
 
     background-color: #3B006A;
     background-image: url(${IconEmail});
     cursor: pointer;
+    background-repeat: no-repeat;
 
-    &:hover{
-        background-color: black;
-    }
 `;
