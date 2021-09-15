@@ -35,11 +35,11 @@ export const Container = styled.div`
 
     @media (max-width: 975px) {
     height: max(50vh, 250px);
-    background-color: red;
+
   }
 
   @media (max-width: 650px) {
         width: 300px;
-        height: 700px;
+        height: 550px;
   }
 `;

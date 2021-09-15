@@ -9,6 +9,24 @@ export const DivExperienceProfessional = styled.div`
 
     display: flex;
     flex-direction: row;
+
+    
+    @media (max-width: 975px) {
+        padding-top: 350px;
+    margin-left: 0;
+    margin-right: 0; 
+
+    width: min(90vw, 800px);
+    height: max(30vh, 250px);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border: 1px solid red;
+
+  }
 `;
 
 export const TitleExperienceProfessional = styled.h2`
@@ -43,6 +61,21 @@ export const CardExperienceProfessional = styled.div`
     flex-direction: column;
     background: #8728ff;
     border-radius: 10px;
+
+
+    @media (max-width: 975px) {
+    margin-left: 0;
+    margin-right: 0; 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border: 1px solid red;
+
+  }
+
 `;
 
 export const ImageCard = styled.img`
@@ -60,7 +93,10 @@ export const DivExp = styled.div`
     height: 240px;
 
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;  
+    
+    
+ 
 `;
 
 export const TitleCard = styled.h3`
@@ -122,6 +158,19 @@ export const CardExperienceProfessionalTester = styled.div`
     flex-direction: row;
     background: #8728ff;
     border-radius: 10px;
+
+    @media (max-width: 975px) {
+    margin-left: 0;
+    margin-right: 0; 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border: 1px solid red;
+
+  }
 `;
 
 export const ImageCardTester = styled.img`

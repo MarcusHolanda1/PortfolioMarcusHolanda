@@ -40,6 +40,10 @@ export const Picture = styled.div`
             transform: rotateZ(360deg);
         }
     }
+
+     @media (max-width: 650px) {
+        margin-left: 70px;
+     }
 `;
 
 export const Vaisefode = styled.img`
@@ -54,5 +58,9 @@ export const Vaisefode = styled.img`
     ::after {
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
+    }
+
+    @media (max-width: 650px) {
+        margin-left: 72px;
     }
 `;
