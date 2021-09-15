@@ -2,11 +2,9 @@ import { Section, Container } from "./styles";
 
 const InsideContainerSkillsGeneral = (props) => {
     return (
-            <Section>
-                <Container>
-                    {props.children}
-                </Container>
-            </Section>
+        <Section>
+            <Container>{props.children}</Container>
+        </Section>
     );
 };
 

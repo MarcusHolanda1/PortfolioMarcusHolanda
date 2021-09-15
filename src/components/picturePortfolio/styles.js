@@ -31,7 +31,7 @@ export const Picture = styled.div`
     animation: spin 10s linear infinite;
 
     background-image: linear-gradient(white, white),
-        radial-gradient(circle at top right, #FFFF, #8728ff);
+        radial-gradient(circle at top right, #ffff, #8728ff);
     background-clip: content-box, border-box;
 
     border: double 4px transparent;
@@ -41,9 +41,9 @@ export const Picture = styled.div`
         }
     }
 
-     @media (max-width: 650px) {
+    @media (max-width: 650px) {
         margin-left: 70px;
-     }
+    }
 `;
 
 export const Vaisefode = styled.img`

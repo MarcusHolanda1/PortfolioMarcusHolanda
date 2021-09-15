@@ -15,10 +15,10 @@ const AboutMe = (props) => {
                     <SpanSkillTest>
                         Tenho 20 anos, resido em Brasília-DF, atualmente
                         trabalho com Desenvolvimento Mobile na PaP, possuo
-                        formação Técnica em TI e estou cursando o
-                        ensino superior Análise e Desenvolvimento de Sistemas
-                        pela Estácio. Acredito que já conquistei bastante coisa
-                        pela minha idade e isso só demonstra o quanto eu sou
+                        formação Técnica em TI e estou cursando o ensino
+                        superior Análise e Desenvolvimento de Sistemas pela
+                        Estácio. Acredito que já conquistei bastante coisa pela
+                        minha idade e isso só demonstra o quanto eu sou
                         esforçado.
                     </SpanSkillTest>
                 </DivSkillTest>

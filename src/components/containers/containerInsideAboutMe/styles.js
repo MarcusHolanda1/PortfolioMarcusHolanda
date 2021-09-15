@@ -6,11 +6,10 @@ export const Section = styled.section`
     justify-content: space-between;
     flex-direction: column;
     overflow: hidden;
-
 `;
 
 export const Container = styled.div`
-       width: min(90vw, 900px);
+    width: min(90vw, 900px);
     height: max(30vh, 415px);
     margin: auto;
 
@@ -30,13 +29,11 @@ export const Container = styled.div`
     }
 
     @media (max-width: 975px) {
-    height: max(50vh, 830px);
-
-  }
+        height: max(50vh, 830px);
+    }
 
     @media (max-width: 650px) {
         width: 300px;
         height: 1000px;
-        
-  }
+    }
 `;

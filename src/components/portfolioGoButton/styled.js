@@ -23,9 +23,12 @@ export const PortfolioButton = styled.button`
     color: white;
     font-weight: bold;
 
-    &:hover{
-        
-    background-image: linear-gradient(to bottom left,#e14eca,#ba54f5,#e14eca);
-
+    &:hover {
+        background-image: linear-gradient(
+            to bottom left,
+            #e14eca,
+            #ba54f5,
+            #e14eca
+        );
     }
 `;

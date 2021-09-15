@@ -7,8 +7,6 @@ export const DivSkills = styled.div`
     display: inline-block;
     flex-direction: row;
     margin-left: 0px;
-
-    
 `;
 
 export const SkillsTitle = styled.h1`
@@ -21,8 +19,7 @@ export const SkillsTitle = styled.h1`
 
     @media (max-width: 650px) {
         font-size: 17px;
-        
-  }
+    }
 `;
 
 export const ImageSkillsTest = styled.img`
@@ -38,9 +35,10 @@ export const SpanSkillTest = styled.a`
 
     margin-top: 10px;
 
-    a{ position: relative;
-    color: #fff;
-    text-decoration: none;
+    a {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
     }
 
     &::before {
@@ -71,5 +69,4 @@ export const DivSkillTest = styled.div`
 
     margin-left: 60px;
     margin-top: 30px;
-
 `;

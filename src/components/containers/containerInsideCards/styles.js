@@ -7,11 +7,9 @@ export const Section = styled.section`
 
     overflow: hidden;
     margin-bottom: 22px;
-    
 `;
 
 export const Container = styled.div`
-
     width: min(90vw, 900px);
     height: max(30vh, 465px);
     margin: auto;
@@ -32,12 +30,11 @@ export const Container = styled.div`
     }
 
     @media (max-width: 975px) {
-    height: max(50vh, 830px);
+        height: max(50vh, 830px);
+    }
 
-  }
-
-  @media (max-width: 650px) {
+    @media (max-width: 650px) {
         width: 300px;
         height: 815px;
-  }
+    }
 `;

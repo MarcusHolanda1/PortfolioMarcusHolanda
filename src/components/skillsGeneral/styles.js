@@ -18,9 +18,8 @@ export const SkillsTitle = styled.h1`
     text-align: left;
 
     @media (max-width: 650px) {
-      font-size: 18px;
-        
-  }
+        font-size: 18px;
+    }
 `;
 
 export const ImageSkillsTest = styled.img`
@@ -36,9 +35,10 @@ export const SpanSkillTest = styled.a`
 
     margin-top: 10px;
 
-    a{ position: relative;
-    color: #fff;
-    text-decoration: none;
+    a {
+        position: relative;
+        color: #fff;
+        text-decoration: none;
     }
 
     &::before {
@@ -70,5 +70,3 @@ export const DivSkillTest = styled.div`
     margin-left: 60px;
     margin-top: 30px;
 `;
-
-

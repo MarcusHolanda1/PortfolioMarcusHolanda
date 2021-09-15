@@ -76,16 +76,15 @@ export const Title = styled.h1`
     color: #ffffff;
 
     @media (max-width: 650px) {
-       font-size: 30px;
-        
-  }
+        font-size: 30px;
+    }
 `;
 
 export const Button = styled.button`
     width: 255px;
     height: 70px;
-    background: #8728FF;   
-     border-radius: 15px;
+    background: #8728ff;
+    border-radius: 15px;
 
     cursor: pointer;
     font-size: 33px;
@@ -98,8 +97,8 @@ export const Button = styled.button`
     }
 
     @media (max-width: 650px) {
-       font-size: 25px;
+        font-size: 25px;
         width: 230px;
-    height: 65px;
-  }
+        height: 65px;
+    }
 `;

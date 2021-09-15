@@ -10,7 +10,7 @@ export const Section = styled.section`
 `;
 
 export const Container = styled.div`
-     width: min(90vw, 900px);
+    width: min(90vw, 900px);
     height: max(30vh, 330px);
     margin: auto;
 
@@ -30,13 +30,11 @@ export const Container = styled.div`
     }
 
     @media (max-width: 975px) {
-    height: max(44vh, 300px);
+        height: max(44vh, 300px);
+    }
 
-  }
-
-  @media (max-width: 650px) {
+    @media (max-width: 650px) {
         width: 300px;
         height: 340px;
-        
-  }
+    }
 `;
