@@ -12,7 +12,7 @@ const TitlesProfile = (props) => {
                             .typeString("Olá, tudo bem?")
                             .pauseFor(5000)
                             .deleteAll()
-                            .typeString("Me nome é Marcus Holanda")
+                            .typeString("Meu nome é Marcus Holanda")
                             .pauseFor(2000)
                             .deleteAll()
                             .typeString("Tenho 20 anos")
