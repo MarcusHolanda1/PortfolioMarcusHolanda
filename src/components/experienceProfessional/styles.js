@@ -24,7 +24,24 @@ export const DivExperienceProfessional = styled.div`
     justify-content: center;
     flex-direction: column;
 
-    border: 1px solid red;
+   
+
+  }
+
+    @media (max-width: 650px) {
+        padding-top: 350px;
+    margin-left: 0;
+    margin-right: 0; 
+
+    width: min(90vw, 290px);
+    height: max(30vh, 250px);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
 
   }
 `;
@@ -41,6 +58,12 @@ export const TitleExperienceProfessional = styled.h2`
     margin-top: 35px;
 
     color: white;
+
+    @media (max-width: 650px) {
+        font-size: 18px;
+        text-align: center;
+        justify-content: center
+    }
 
     /* &:after {
         content: "";
@@ -72,8 +95,11 @@ export const CardExperienceProfessional = styled.div`
     justify-content: center;
     flex-direction: column;
 
-    border: 1px solid red;
+  }
 
+  @media (max-width: 650px) {
+    width: 240px;
+    height: 340px;
   }
 
 `;
@@ -95,7 +121,10 @@ export const DivExp = styled.div`
     margin-left: auto;
     margin-right: auto;  
     
-    
+    @media (max-width: 650px) {
+    width: 240px;
+    height: 340px;
+  }
  
 `;
 
@@ -168,8 +197,12 @@ export const CardExperienceProfessionalTester = styled.div`
     justify-content: center;
     flex-direction: column;
 
-    border: 1px solid red;
 
+  }
+
+  @media (max-width: 650px) {
+    width: 240px;
+    height: 340px;
   }
 `;
 
@@ -189,6 +222,11 @@ export const DivExpTester = styled.div`
 
     margin-left: auto;
     margin-right: auto;
+
+    @media (max-width: 650px) {
+    width: 240px;
+    height: 340px;
+  }
 `;
 
 export const TitleCardTester = styled.h3`
@@ -196,6 +234,8 @@ export const TitleCardTester = styled.h3`
     color: white;
     font-size: 18px;
     text-align: center;
+
+   
 `;
 export const ExpAPPTester = styled.h4`
     font-style: normal;

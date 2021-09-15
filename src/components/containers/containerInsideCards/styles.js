@@ -38,6 +38,6 @@ export const Container = styled.div`
 
   @media (max-width: 650px) {
         width: 300px;
-        height: 550px;
+        height: 900px;
   }
 `;
