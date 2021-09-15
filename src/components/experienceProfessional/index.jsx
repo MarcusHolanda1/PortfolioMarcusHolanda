@@ -38,7 +38,7 @@ const ExperienceProfessional = (props) => {
                             (IOS e Android) cujo um app é voltado para o
                             passageiro e outro para o motorista, o aplicativo
                             possui as plataformas de transporte terrestre,
-                            náutico e aéreo
+                            náutico e aéreo.
                         </ExpText>
                     </DivExp>
                 </CardExperienceProfessional>
