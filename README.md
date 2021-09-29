@@ -1,28 +1,28 @@
 
-<h1 align="center"> Portfólio Marcus Holanda</h1>
+<h1 align="center"><a href="https://emoji.gg/emoji/sharingan"><img src="https://emoji.gg/assets/emoji/sharingan.png" width="64px" height="64px" alt="sharingan"></a>Ative seu Sharingan<a href="https://emoji.gg/emoji/sharingan"><img src="https://emoji.gg/assets/emoji/sharingan.png" width="64px" height="64px" alt="sharingan"></a></h1>
+<a href="https://emoji.gg/emoji/sharingan"></a>
  
 <h3 align="left">Descrição</h3> 
  
-<p align="left">Projeto criado com o intuito de me apresentar para quem deseja me conhecer, código focado na organização com React JS e styled-components.</p>
+<p align="left">Projeto desenvolvido apenas com CSS para desenhar o famoso "Sharingan" do anime Naruto.</p>
  
  <h4 align="left">Projeto</h4>
-<p>Neste projeto utilizei React JS e as seguintes bibliotecas:</p>
-
-* typewriter-effect
-* react-reveal
-* styled-components
+<p>Neste projeto utilizei CSS puro para fazer o desenho e as animações.</p>
  
 ## 📦 Instalação
 
 #### Clone o repositório na pasta desejada: 
 ```bash
-https://github.com/MarcusHolanda1/PortfolioMarcusHolanda.git
+https://github.com/MarcusHolanda1/sharinganOnlyCSS.git
 ```
-#### Rode o seguinte comando para instalar as dependências: 
+#### Rode o projeto index.html no local desejado: 
 ```bash
-yarn install
+src > index.html
 ```
-#### Após instalar, inicie o projeto com o comando: 
+<br/>
+<br/>
+<br/>
+<h1 align="center">Divirta-se ativando seu Sharingan</h1>
 ```bash
-yarn start
+src > index.html
 ```
