@@ -28,17 +28,13 @@ const ExperienceProfessional = (props) => {
                 <CardExperienceProfessional>
                     <ImageCard src={DevImage}></ImageCard>
                     <DivExp>
-                        <TitleCard>Desenvolvedor Mobile</TitleCard>
+                        <TitleCard>Desenvolvedor React Native</TitleCard>
                         <ExpAPP>
-                            PaP | Aplicativo de mobilidade | Junho de 2021 -
+                            Supera Inovação em Tecnologia | Novembro de 2021 -
                             Atualmente
                         </ExpAPP>
                         <ExpText>
-                            Desenvolvimento em dois aplicativos de mobilidade
-                            (IOS e Android) cujo um app é voltado para o
-                            passageiro e outro para o motorista, o aplicativo
-                            possui as plataformas de transporte terrestre,
-                            náutico e aéreo
+                            Desenvolvimento em aplicativo legado utilizando React Native com redux para o gerenciamento de estado e integrações com API. 
                         </ExpText>
                     </DivExp>
                 </CardExperienceProfessional>
@@ -49,7 +45,7 @@ const ExperienceProfessional = (props) => {
                         <TitleCardTester>QA Tester</TitleCardTester>
                         <ExpAPPTester>
                             PaP | Aplicativo de mobilidade | Março de 2021 -
-                            Junho de 2021
+                            Agosto de 2021
                         </ExpAPPTester>
                         <ExpTextTester>
                             Qa tester na PaP adquirindo todo conhecimento e
