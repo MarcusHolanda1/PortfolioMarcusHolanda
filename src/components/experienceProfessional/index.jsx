@@ -36,7 +36,8 @@ const ExperienceProfessional = (props) => {
                         <ExpText>
                             Desenvolvimento em aplicativo legado utilizando
                             React Native com redux para o gerenciamento de
-                            estado e integrações com API.
+                            estado e integrações com API e realização de tarefas
+                            em WebSites com React Js.
                         </ExpText>
                     </DivExp>
                 </CardExperienceProfessional>
