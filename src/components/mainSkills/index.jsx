@@ -9,11 +9,11 @@ import {
 import ImageSkillsJavaScript from "../../assets/icons/javascript.svg";
 import ImageSkillsReactJS from "../../assets/icons/react.svg";
 import ImageSkillsNative from "../../assets/icons/icons8-nativo-de-reagir-512 (1) 1.svg";
-import ImageSkillsRuby from "../../assets/icons/ruby3.svg";
+import ImageSkillsTypescript from "../../assets/icons/typescriptSkill.svg";
+import ImageSkillAndroidStudio from "../../assets/icons/icons8-android-studio 1.svg";
 
 import ImageSkillsGit from "../../assets/icons/git.svg";
-import ImageSkillsMySQL from "../../assets/icons/mysql.svg";
-import ImageSkillsSwagger from "../../assets/icons/swagger.svg";
+import ImageSkillsRedux from "../../assets/icons/icons8-redux 1.svg";
 import ImageSkillsFigma from "../../assets/icons/figma.svg";
 
 const MainSkills = (props) => {
@@ -25,7 +25,7 @@ const MainSkills = (props) => {
                     <ImageSkillsTest
                         src={ImageSkillsJavaScript}
                         width={"32px"}
-                        height={"32px"}
+                        height={"27px"}
                     ></ImageSkillsTest>
                     <a
                         href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
@@ -37,16 +37,16 @@ const MainSkills = (props) => {
                 </DivSkillTest>
                 <DivSkillTest>
                     <ImageSkillsTest
-                        src={ImageSkillsReactJS}
+                        src={ImageSkillsTypescript}
                         width={"35px"}
-                        height={"35px"}
+                        height={"38px"}
                     ></ImageSkillsTest>
                     <a
-                        href="https://pt-br.reactjs.org/"
+                        href="https://rubyonrails.org/"
                         rel="noopener noreferrer"
                         target="_blank"
                     >
-                        <SpanSkillTest>React JS</SpanSkillTest>
+                        <SpanSkillTest>TypeScript</SpanSkillTest>
                     </a>
                 </DivSkillTest>
                 <DivSkillTest>
@@ -65,22 +65,50 @@ const MainSkills = (props) => {
                 </DivSkillTest>
                 <DivSkillTest>
                     <ImageSkillsTest
-                        src={ImageSkillsRuby}
-                        width={"30px"}
-                        height={"37px"}
+                        src={ImageSkillsReactJS}
+                        width={"35px"}
+                        height={"35px"}
                     ></ImageSkillsTest>
                     <a
-                        href="https://rubyonrails.org/"
+                        href="https://pt-br.reactjs.org/"
                         rel="noopener noreferrer"
                         target="_blank"
                     >
-                        <SpanSkillTest>Ruby on Rails</SpanSkillTest>
+                        <SpanSkillTest>React JS</SpanSkillTest>
                     </a>
                 </DivSkillTest>
             </DivSkills>
 
             <DivSkills>
                 <SkillsTitle>Outras habilidades</SkillsTitle>
+                <DivSkillTest>
+                    <ImageSkillsTest
+                        src={ImageSkillsFigma}
+                        width={"30px"}
+                        height={"37px"}
+                    ></ImageSkillsTest>
+                    <a
+                        href="https://www.figma.com/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        <SpanSkillTest>Figma / UI</SpanSkillTest>
+                    </a>
+                </DivSkillTest>
+                <DivSkillTest>
+                    <ImageSkillsTest
+                        src={ImageSkillsRedux}
+                        width={"35px"}
+                        height={"38px"}
+                    ></ImageSkillsTest>
+                    <a
+                        href="https://swagger.io/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        <SpanSkillTest>Redux</SpanSkillTest>
+                    </a>
+                </DivSkillTest>
                 <DivSkillTest>
                     <ImageSkillsTest
                         src={ImageSkillsGit}
@@ -97,7 +125,7 @@ const MainSkills = (props) => {
                 </DivSkillTest>
                 <DivSkillTest>
                     <ImageSkillsTest
-                        src={ImageSkillsMySQL}
+                        src={ImageSkillAndroidStudio}
                         width={"35px"}
                         height={"35px"}
                     ></ImageSkillsTest>
@@ -106,35 +134,7 @@ const MainSkills = (props) => {
                         rel="noopener noreferrer"
                         target="_blank"
                     >
-                        <SpanSkillTest>MySQL</SpanSkillTest>
-                    </a>
-                </DivSkillTest>
-                <DivSkillTest>
-                    <ImageSkillsTest
-                        src={ImageSkillsSwagger}
-                        width={"35px"}
-                        height={"38px"}
-                    ></ImageSkillsTest>
-                    <a
-                        href="https://swagger.io/"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                    >
-                        <SpanSkillTest>Swagget API</SpanSkillTest>
-                    </a>
-                </DivSkillTest>
-                <DivSkillTest>
-                    <ImageSkillsTest
-                        src={ImageSkillsFigma}
-                        width={"30px"}
-                        height={"37px"}
-                    ></ImageSkillsTest>
-                    <a
-                        href="https://www.figma.com/"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                    >
-                        <SpanSkillTest>Figma</SpanSkillTest>
+                        <SpanSkillTest>Android Studio</SpanSkillTest>
                     </a>
                 </DivSkillTest>
             </DivSkills>

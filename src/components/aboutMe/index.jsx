@@ -12,8 +12,8 @@ const AboutMe = (props) => {
                 <SkillsTitle>Sobre mim</SkillsTitle>
                 <DivSkillTest>
                     <SpanSkillTest>
-                        Tenho 20 anos, resido em Brasília-DF, atualmente
-                        trabalho com Desenvolvimento Mobile na PaP, possuo
+                        Tenho 21 anos, resido em Brasília-DF, atualmente
+                        trabalho com Desenvolvimento Mobile na Supera Tecnologia, possuo
                         formação Técnica em TI e estou cursando o ensino
                         superior Análise e Desenvolvimento de Sistemas pela
                         Estácio. Acredito que já conquistei bastante coisa pela
