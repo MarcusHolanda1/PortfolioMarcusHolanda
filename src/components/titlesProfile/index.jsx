@@ -18,12 +18,12 @@ const TitlesProfile = (props) => {
                             .typeString("Tenho 20 anos")
                             .pauseFor(2000)
                             .deleteAll()
-                            .typeString("Sou Desenvolvedor Front-end");
+                            .typeString("Sou Desenvolvedor Mobile");
                     }}
                 ></Typewriter>
             </MyName>
             <MyProfession>
-                Sou apenas um desenvolvedor front-end esforçado, em busca de
+                Sou apenas um desenvolvedor esforçado, em busca de
                 sempre adquirir novos conhecimentos, experiência e novos
                 desafios. Atualmente trabalho com desenvolvimento Mobile na Supera Tecnologia.
             </MyProfession>
