@@ -25,7 +25,7 @@ const TitlesProfile = (props) => {
             <MyProfession>
                 Sou apenas um desenvolvedor front-end esforçado, em busca de
                 sempre adquirir novos conhecimentos, experiência e novos
-                desafios. Atualmente trabalho com desenvolvimento Mobile na PaP.
+                desafios. Atualmente trabalho com desenvolvimento Mobile na Supera Tecnologia.
             </MyProfession>
             {props.children}
         </TitlesDiv>
