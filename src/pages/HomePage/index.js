@@ -108,7 +108,12 @@ const HomePage = () => {
                 </div>
                 <S.ContentCardExperience>
                     <S.CardExperience>
-                        <img src={DevImage} width={97} height={97} />
+                        <img
+                            alt="react-native"
+                            src={DevImage}
+                            width={97}
+                            height={97}
+                        />
                         <p
                             style={{
                                 fontSize: 18,
@@ -143,7 +148,7 @@ const HomePage = () => {
                         </p>
                     </S.CardExperience>
                     <S.CardExperience>
-                        <img src={DevImage} width={97} height={97} />
+                        <img alt="dev" src={DevImage} width={97} height={97} />
                         <p
                             style={{
                                 fontSize: 18,
@@ -180,7 +185,7 @@ const HomePage = () => {
                         </p>
                     </S.CardExperience>
                     <S.CardExperience>
-                        <img src={DevImage} width={97} height={97} />
+                        <img alt="dev" src={DevImage} width={97} height={97} />
                         <p
                             style={{
                                 fontSize: 18,
@@ -229,6 +234,7 @@ const HomePage = () => {
                             }}
                         >
                             <img
+                                alt="typescript"
                                 width={45}
                                 height={45}
                                 src={TypescriptIcon}
@@ -244,6 +250,7 @@ const HomePage = () => {
                             }}
                         >
                             <img
+                                alt="react-native"
                                 width={45}
                                 height={45}
                                 src={ReactNativetIcon}
@@ -258,7 +265,12 @@ const HomePage = () => {
                                 marginTop: 20,
                             }}
                         >
-                            <img width={42} height={38} src={Flutter}></img>
+                            <img
+                                alt="flutter"
+                                width={42}
+                                height={38}
+                                src={Flutter}
+                            ></img>
                             <p style={{ marginLeft: 8 }}>Flutter</p>
                         </div>
                         <div
@@ -270,6 +282,7 @@ const HomePage = () => {
                             }}
                         >
                             <img
+                                alt="unit-test"
                                 width={45}
                                 height={45}
                                 src="https://img.icons8.com/color/48/FFFFFF/thin-test-tube.png"
@@ -284,7 +297,12 @@ const HomePage = () => {
                                 marginTop: 20,
                             }}
                         >
-                            <img width={45} height={45} src={ReactIcon}></img>
+                            <img
+                                alt="react-icon"
+                                width={45}
+                                height={45}
+                                src={ReactIcon}
+                            ></img>
                             <p style={{ marginLeft: 8 }}>React JS</p>
                         </div>
                     </S.MainSkills>
@@ -299,7 +317,12 @@ const HomePage = () => {
                                 marginTop: 20,
                             }}
                         >
-                            <img width={45} height={45} src={XcodeIcon}></img>
+                            <img
+                                alt="xcode"
+                                width={45}
+                                height={45}
+                                src={XcodeIcon}
+                            ></img>
                             <p style={{ marginLeft: 8 }}>Xcode</p>
                         </div>
                         <div
@@ -311,6 +334,7 @@ const HomePage = () => {
                             }}
                         >
                             <img
+                                alt="android-studio"
                                 width={45}
                                 height={45}
                                 src={AndroidStudioIcon}
@@ -325,7 +349,12 @@ const HomePage = () => {
                                 marginTop: 20,
                             }}
                         >
-                            <img width={45} height={45} src={FigmaIcon}></img>
+                            <img
+                                alt="figma"
+                                width={45}
+                                height={45}
+                                src={FigmaIcon}
+                            ></img>
                             <p style={{ marginLeft: 8 }}>Figma / UI</p>
                         </div>
                         <div
@@ -336,7 +365,12 @@ const HomePage = () => {
                                 marginTop: 20,
                             }}
                         >
-                            <img width={45} height={45} src={GitIcon}></img>
+                            <img
+                                alt="git-icon"
+                                width={45}
+                                height={45}
+                                src={GitIcon}
+                            ></img>
                             <p style={{ marginLeft: 8 }}>Git / Gitflow</p>
                         </div>
                     </S.OtherSkills>
@@ -354,7 +388,12 @@ const HomePage = () => {
                             marginTop: 20,
                         }}
                     >
-                        <img width={45} height={45} src={Css3Icon}></img>
+                        <img
+                            alt="css3"
+                            width={45}
+                            height={45}
+                            src={Css3Icon}
+                        ></img>
                         <p style={{ marginLeft: 8 }}>HTML5</p>
                     </div>
                     <div
@@ -365,7 +404,12 @@ const HomePage = () => {
                             marginTop: 20,
                         }}
                     >
-                        <img width={45} height={45} src={Html5Icon}></img>
+                        <img
+                            alt="html5"
+                            width={45}
+                            height={45}
+                            src={Html5Icon}
+                        ></img>
                         <p style={{ marginLeft: 8 }}>CSS3</p>
                     </div>
                     <div
@@ -376,7 +420,12 @@ const HomePage = () => {
                             marginTop: 20,
                         }}
                     >
-                        <img width={45} height={45} src={ScrumIcon}></img>
+                        <img
+                            alt="scrum"
+                            width={45}
+                            height={45}
+                            src={ScrumIcon}
+                        ></img>
                         <p style={{ marginLeft: 8 }}>
                             Metodologia ágil (SCRUM)
                         </p>
