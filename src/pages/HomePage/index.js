@@ -19,6 +19,7 @@ import Flutter from "../../assets/icons/flutter.svg";
 import Css3Icon from "../../assets/icons/css3.svg";
 import Html5Icon from "../../assets/icons/html5.svg";
 import ScrumIcon from "../../assets/icons/scrum.svg";
+import Text from "../../components/Texts";
 
 const HomePage = () => {
     return (
@@ -63,7 +64,10 @@ const HomePage = () => {
                         </S.Socials>
                     </S.ContentAvatar>
                     <S.ContentTitleProfile>
-                        <h1 style={{ fontWeight: 400, marginBottom: 20 }}>
+                        <Text
+                            textType="h1"
+                            style={{ fontWeight: 400, marginBottom: 20 }}
+                        >
                             <Typewriter
                                 onInit={(typewriter) => {
                                     typewriter
@@ -80,7 +84,7 @@ const HomePage = () => {
                                         .typeString("Sou Desenvolvedor Mobile");
                                 }}
                             ></Typewriter>
-                        </h1>
+                        </Text>
                         <p>
                             Sou apenas um desenvolvedor esforçado, em busca de
                             sempre adquirir novos conhecimentos, experiência e
@@ -100,7 +104,7 @@ const HomePage = () => {
                         marginBottom: 18,
                     }}
                 >
-                    <h2>Experiência profissional</h2>
+                    <Text textType="h2">Experiência profissional</Text>
                 </div>
                 <S.ContentCardExperience>
                     <S.CardExperience>
@@ -215,7 +219,7 @@ const HomePage = () => {
             <Card>
                 <S.CardSkills>
                     <S.MainSkills>
-                        <h2>Principais habilidades</h2>
+                        <Text textType="h2">Principais habilidades</Text>
                         <div
                             style={{
                                 display: "flex",
@@ -285,7 +289,7 @@ const HomePage = () => {
                         </div>
                     </S.MainSkills>
                     <S.OtherSkills>
-                        <h2>Outras habilidades</h2>
+                        <Text textType="h2">Outras habilidades</Text>
 
                         <div
                             style={{
@@ -341,7 +345,7 @@ const HomePage = () => {
             <div style={{ height: 16 }}></div>
             <Card>
                 <S.GeneralKnowledge>
-                    <h2>Conhecimentos gerais</h2>
+                    <Text textType="h2">Conhecimentos gerais</Text>
                     <div
                         style={{
                             display: "flex",
@@ -383,7 +387,9 @@ const HomePage = () => {
             <Card>
                 <S.CardAboutMe>
                     <div>
-                        <h2>Sobre mim</h2>
+                        <div style={{ marginBottom: 10 }}>
+                            <Text textType="h2">Sobre mim</Text>
+                        </div>
                         <p>
                             Tenho 21 anos, resido em Brasília-DF, atualmente
                             trabalho com Desenvolvimento Mobile na Supera
@@ -395,7 +401,9 @@ const HomePage = () => {
                         </p>
                     </div>
                     <div style={{ marginTop: 20 }}>
-                        <h2>Objetivos</h2>
+                        <div style={{ marginBottom: 10 }}>
+                            <Text textType="h2">Objetivos</Text>
+                        </div>
                         <p>
                             Meu maior objetivo pessoal após eu conseguir ter uma
                             boa experiência na carreira é encontrar alguma

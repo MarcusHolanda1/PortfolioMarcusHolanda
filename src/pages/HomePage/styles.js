@@ -52,12 +52,20 @@ export const Container = styled.div`
             opacity: 1;
         }
     }
+
+    @media (max-width: 1080px) {
+        padding: 40px 100px 40px 100px;
+    }
+    @media (max-width: 560px) {
+        padding: 40px 20px 40px 20px;
+    }
 `;
 
 export const CardMe = styled.div`
     display: flex;
 
-    @media (max-width: 1080px) {
+    @media (max-width: 650px) {
+        justify-content: flex-start;
         flex-direction: column;
     }
 `;
@@ -66,6 +74,10 @@ export const ContentAvatar = styled.div`
     display: flex;
     justify-content: start;
     flex-direction: column;
+
+    @media (max-width: 650px) {
+        flex-direction: row;
+    }
 `;
 
 export const Avatar = styled.img`
@@ -79,17 +91,15 @@ export const Avatar = styled.img`
         radial-gradient(circle at top left, #f00, #3020ff);
     background-origin: border-box;
     background-clip: content-box, border-box;
+
+    @media (max-width: 650px) {
+        margin-bottom: 26px;
+        margin-right: 26px;
+    }
 `;
 
 export const ContentTitleProfile = styled.div`
     margin-left: 42px;
-
-    @media (max-width: 1080px) {
-        flex-direction: column;
-        app-h1 {
-            font-size: 10;
-        }
-    }
 `;
 
 export const Socials = styled.div`
