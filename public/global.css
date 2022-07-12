@@ -9,7 +9,9 @@ input, button {
     outline: none;
 }
 
-main {
+body {
+    background-color: #160023;
     font-family:"Fira Code", monospace, sans-serif;
+    color: white;
 }
 

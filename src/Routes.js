@@ -1,18 +1,13 @@
-import React from 'react';
-import {
-    BrowserRouter as BRouter,
-    Switch,
-    Route
-} from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as BRouter, Switch, Route } from "react-router-dom";
 
-import Home from './pages/home';
-import Portfolio from './pages/portfolio';
+import { HomePage, WelcomePage } from "./pages";
 
 const Routes = () => (
     <BRouter>
         <Switch>
-            <Route path="/" exact component={ Home } />
-            <Route path="/portfolio" exact component={ Portfolio } />
+            <Route path="/" exact component={WelcomePage} />
+            <Route path="/portfolio" exact component={HomePage} />
         </Switch>
     </BRouter>
 );
