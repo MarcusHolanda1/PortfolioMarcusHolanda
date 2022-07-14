@@ -196,9 +196,9 @@ const HomePage = () => {
                                 }}
                             >
                                 Desenvolvimento React Native de features, fix,
-                                integações, build de aplicativo e whitelabels
-                                para lojas apple e android. Desenvolvimento
-                                Flutter, integações com API graphQL,
+                                refatoração de código, integações com api,
+                                whitelabels, build de aplicativos para lojas
+                                apple e android. Desenvolvimento Flutter,
                                 desenvolvimento de interfaces e criação de lib
                                 interna para a empresa. Ambas as stacks
                                 aplicando testes unitários em todas features
