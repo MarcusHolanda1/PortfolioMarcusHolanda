@@ -101,7 +101,7 @@ const HomePage = () => {
                                 Sou apenas um desenvolvedor esforçado, em busca
                                 de sempre adquirir novos conhecimentos,
                                 experiência e novos desafios. Atualmente
-                                trabalho com desenvolvimento Mobile na Supera
+                                trabalho com desenvolvimento Mobile na FORTICS
                                 Tecnologia.
                             </p>
                         </S.ContentTitleProfile>
