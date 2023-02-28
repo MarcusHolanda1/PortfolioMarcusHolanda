@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 import Lottie from "react-lottie";
 
 import * as S from "./styles";
-import lottieWelcome from "../../assets/lotties/welcome/welcome-lottie.json";
+import lottieWelcome from "../../assets/lotties/welcome/person-welcome.json";
 
 const WelcomePage = () => {
     const defaultOptionsLottie = {

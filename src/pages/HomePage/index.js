@@ -7,13 +7,18 @@ import { Fade } from "react-reveal";
 
 import * as S from "./styles";
 import Card from "../../components/Card";
-import MyProfilePic from "../../assets/images/me.jpg";
+import MyProfilePic from "../../assets/images/mebarba-removebg-preview (3) 1.jpg";
 import DevImage from "../../assets/images/programador.png";
+import BugImage from "../../assets/images/bug.png";
+import ToolsIcon from "../../assets/icons/tools.svg";
 import TypescriptIcon from "../../assets/icons/typescriptSkill.svg";
 import ReactNativetIcon from "../../assets/icons/reactNative.svg";
 import ReactIcon from "../../assets/icons/react.svg";
 import AndroidStudioIcon from "../../assets/icons/AndroidStudioIcon.svg";
+import AppleStore from "../../assets/icons/apple.svg";
+import PlayStore from "../../assets/icons/playstore.svg";
 import FigmaIcon from "../../assets/icons/figma.svg";
+import AppCenterIcon from "../../assets/icons/appcenterms-icon.svg";
 import GitIcon from "../../assets/icons/git.svg";
 import XcodeIcon from "../../assets/icons/icons8-xcode 1.svg";
 import Flutter from "../../assets/icons/flutter.svg";
@@ -136,7 +141,7 @@ const HomePage = () => {
                                     marginTop: 12,
                                 }}
                             >
-                                Desenvolvedor React Native
+                                Mobile / Web Developer
                             </p>
                             <span
                                 style={{
@@ -159,7 +164,7 @@ const HomePage = () => {
                                 Desenvolvimento em aplicativo legado utilizando
                                 React Native com redux para o gerenciamento de
                                 estado e integrações com API e realização de
-                                tarefas em WebSites com React Js.
+                                tarefas em WebSites com React Js e Angular.
                             </p>
                         </S.CardExperience>
                         <S.CardExperience>
@@ -176,7 +181,7 @@ const HomePage = () => {
                                     marginTop: 12,
                                 }}
                             >
-                                Desenvolvedor React Native | Flutter
+                                Mobile Software Developer
                             </p>
                             <span
                                 style={{
@@ -208,7 +213,7 @@ const HomePage = () => {
                         <S.CardExperience>
                             <img
                                 alt="dev"
-                                src={DevImage}
+                                src={BugImage}
                                 width={97}
                                 height={97}
                             />
@@ -244,6 +249,45 @@ const HomePage = () => {
                                 aplicação deve ter.
                             </p>
                         </S.CardExperience>
+                        <S.CardExperience>
+                            <img
+                                alt="dev"
+                                src={DevImage}
+                                width={97}
+                                height={97}
+                            />
+                            <p
+                                style={{
+                                    fontSize: 18,
+                                    fontWeight: 600,
+                                    marginTop: 12,
+                                }}
+                            >
+                                Freelancer
+                            </p>
+                            <span
+                                style={{
+                                    fontSize: 12,
+                                    fontWeight: 400,
+                                    marginTop: 12,
+                                    color: "#B6B6B6",
+                                }}
+                            >
+                                Wule | Agência digital | Abril de 2020
+                            </span>
+                            <p
+                                style={{
+                                    fontSize: 14,
+                                    fontWeight: 500,
+                                    marginTop: 12,
+                                }}
+                            >
+                                Desenvolvimento de aplicações web e mobile para
+                                uma agêcia digital. A principal implementação
+                                foi um processo de pagamento utilizando JUNO com
+                                Next.js e sua segurança.
+                            </p>
+                        </S.CardExperience>
                     </S.ContentCardExperience>
                 </Card>
                 <div style={{ height: 16 }}></div>
@@ -262,12 +306,14 @@ const HomePage = () => {
                                 }}
                             >
                                 <img
-                                    alt="typescript"
+                                    alt="react-native"
                                     width={45}
                                     height={45}
-                                    src={TypescriptIcon}
+                                    src={ReactNativetIcon}
                                 ></img>
-                                <p style={{ marginLeft: 8 }}>TypeScript</p>
+                                <p style={{ marginLeft: 8 }}>
+                                    React Native CLI & EXPO
+                                </p>
                             </div>
                             <div
                                 style={{
@@ -281,9 +327,11 @@ const HomePage = () => {
                                     alt="react-native"
                                     width={45}
                                     height={45}
-                                    src={ReactNativetIcon}
+                                    src={ToolsIcon}
                                 ></img>
-                                <p style={{ marginLeft: 8 }}>React Native</p>
+                                <p style={{ marginLeft: 8 }}>
+                                    Redux / Context API / Hooks
+                                </p>
                             </div>
                             <div
                                 style={{
@@ -335,6 +383,22 @@ const HomePage = () => {
                                 ></img>
                                 <p style={{ marginLeft: 8 }}>React JS</p>
                             </div>
+                            <div
+                                style={{
+                                    display: "flex",
+                                    flexDirection: "row",
+                                    alignItems: "center",
+                                    marginTop: 20,
+                                }}
+                            >
+                                <img
+                                    alt="typescript"
+                                    width={45}
+                                    height={45}
+                                    src={TypescriptIcon}
+                                ></img>
+                                <p style={{ marginLeft: 8 }}>TypeScript</p>
+                            </div>
                         </S.MainSkills>
                         <S.OtherSkills>
                             <Text textType="h2">Outras habilidades</Text>
@@ -370,6 +434,56 @@ const HomePage = () => {
                                     src={AndroidStudioIcon}
                                 ></img>
                                 <p style={{ marginLeft: 8 }}>Android Studio</p>
+                            </div>
+                            <div
+                                style={{
+                                    display: "flex",
+                                    flexDirection: "row",
+                                    alignItems: "center",
+                                    marginTop: 20,
+                                }}
+                            >
+                                <img
+                                    alt="play-store"
+                                    width={45}
+                                    height={45}
+                                    src={PlayStore}
+                                ></img>
+                                <p style={{ marginLeft: 8 }}>Play Store</p>
+                            </div>
+                            <div
+                                style={{
+                                    display: "flex",
+                                    flexDirection: "row",
+                                    alignItems: "center",
+                                    marginTop: 20,
+                                }}
+                            >
+                                <img
+                                    alt="app-store"
+                                    width={45}
+                                    height={45}
+                                    src={AppleStore}
+                                ></img>
+                                <p style={{ marginLeft: 8 }}>App Store</p>
+                            </div>
+                            <div
+                                style={{
+                                    display: "flex",
+                                    flexDirection: "row",
+                                    alignItems: "center",
+                                    marginTop: 20,
+                                }}
+                            >
+                                <img
+                                    alt="figma"
+                                    width={45}
+                                    height={45}
+                                    src={AppCenterIcon}
+                                ></img>
+                                <p style={{ marginLeft: 8 }}>
+                                    Mobile DevOps (App Center & EAS)
+                                </p>
                             </div>
                             <div
                                 style={{
@@ -474,8 +588,8 @@ const HomePage = () => {
                                 <Text textType="h2">Sobre mim</Text>
                             </div>
                             <p>
-                                Tenho 21 anos, resido em Brasília-DF, atualmente
-                                trabalho com Desenvolvimento Mobile na Supera
+                                Tenho 22 anos, resido em Brasília-DF, atualmente
+                                trabalho com Desenvolvimento Mobile na Fortics
                                 Tecnologia, possuo formação Técnica em TI e
                                 estou cursando o ensino superior Análise e
                                 Desenvolvimento de Sistemas pela Estácio.
